@@ -1,0 +1,13 @@
+{
+    "db": {
+        "host": "localhost",
+        "port": 3306,
+        "database": "allnews",
+        "user": "root",
+        "password": "mashamasha"
+    },
+    "app": {
+        "host": "127.0.0.1",
+        "port": 8085
+    }
+}
