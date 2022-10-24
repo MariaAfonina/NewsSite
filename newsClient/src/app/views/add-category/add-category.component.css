@@ -1,0 +1,23 @@
+.button {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    padding: 10px 30px;
+    border: none;
+}
+
+.button:hover {
+    transition: 1s;
+    color: rgb(0, 255, 251);
+}
+
+input {
+    border: none;
+    border-radius: 0px;
+    border-bottom: 2px solid black;
+    padding: 10px 0px 8px 4px;
+}
+
+label {
+    margin-left: 50px;
+}

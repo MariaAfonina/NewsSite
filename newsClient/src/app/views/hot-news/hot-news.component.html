@@ -1,0 +1,10 @@
+<div class="hotNewsWrapper">
+    <div class="hotNewsConteiner">
+        <h1>Hot news!</h1>
+
+        <div *ngFor=" let allnews of allHotNews" [@flyIn] = "'in'" class="hotNews">
+            <a [routerLink]="['/allnews/active']"></a>
+            {{allnews.id}} {{allnews.news}} {{allnews.date_only}}
+        </div>
+    </div>
+</div>

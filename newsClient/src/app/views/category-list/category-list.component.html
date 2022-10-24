@@ -1,0 +1,9 @@
+    <h1>Categories:</h1>
+
+    <div *ngFor=" let category of categories" class="categoryList">
+        <a  [title]="'Category #' + category.id"
+        [routerLink]="['/categories',category.id]" class="category">{{category.id}} {{category.name}} </a>
+        <div class="date">Last Date: {{ category.date_only }}</div>
+    </div>
+
+<button class="button"> <a [routerLink]="['/categories/create']">Add category</a></button>

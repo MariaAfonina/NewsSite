@@ -1,0 +1,31 @@
+.category:hover{
+    color: blue;
+}
+
+.button {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    padding: 10px 30px;
+    border: none;
+    margin-right: 24px;
+}
+
+.button:hover {
+    transition: 1s;
+    color: rgb(0, 255, 251);
+}
+
+.button a:hover {
+    transition: 1s;
+    color: rgb(0, 255, 251);
+}
+
+.button a {
+    color: white;
+}
+
+.category {
+    font-weight: bold;
+    padding-right: 10px;
+}

@@ -1,0 +1,32 @@
+<div class="hotNewsWrapper">
+  <div class="hotNewsConteiner">
+    <h1> Add news to Category №{{ category?.id }}</h1>
+
+    <form [formGroup]="newsForm" (ngSubmit)="onSubmit()">
+      
+      <div>
+        <label for="form-group">
+          News:
+        </label>
+        <input id="news" type="text" formControlName="news">
+      </div>
+
+      <div class="box">
+        <label class="date" for="form-group">
+          Date:
+        </label>
+        <input id="date_only" type="text" formControlName="date_only">
+      </div>
+      
+      <div class="box">
+        <label for="form-group">
+          Status:
+        </label>
+        <input class="checkbox" id="status" type="checkbox" formControlName="status">
+      </div>
+      
+      <button class="button" type="submit">Save</button>
+      
+    </form>
+  </div>
+</div>

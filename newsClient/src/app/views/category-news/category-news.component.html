@@ -1,0 +1,10 @@
+<div class="hotNewsWrapper">
+    <div class="hotNewsConteiner">
+        <h1>News:</h1>
+
+        <div *ngFor=" let news of allNews">
+            <a>{{news.id}} {{news.news}} {{news.date_only}}</a> 
+                <button class="button" (click)="onDelete(news.id)">Delete</button>
+        </div>
+    </div>
+</div>

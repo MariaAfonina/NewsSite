@@ -1,0 +1,26 @@
+.titleNewsSite {
+    color: #000000;
+    text-align: center;
+    font-size: 60px;
+    border-bottom: 2px solid #0000004c;
+    margin-bottom: 40px;
+}
+
+.size {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sizeContent {
+    display: flex;
+}
+
+.button:hover {
+    transition: 1s;
+    color: rgb(0, 255, 251);
+}
+
+.hotNews {
+    float: right;
+    width: 30%;
+}

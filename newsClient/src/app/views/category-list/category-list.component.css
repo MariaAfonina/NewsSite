@@ -1,0 +1,38 @@
+.categoryList{
+    padding-bottom: 16px;
+    margin-right: 100px;
+}
+
+.date {
+    padding-top: 8px;
+}
+
+.category {
+    font-weight: bold;
+}
+
+.category:hover{
+    color: blue;
+}
+
+.button {
+    cursor: pointer;
+    background-color: black;
+    padding: 10px 30px;
+    margin-top: 16px;
+    border: none;
+}
+
+.button:hover {
+    transition: 1s;
+    color: rgb(0, 255, 251);
+}
+
+.button a { 
+    color: white;
+}
+
+.button a:hover {
+    transition: 1s;
+    color: rgb(0, 255, 251);
+}

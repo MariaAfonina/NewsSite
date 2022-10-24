@@ -1,0 +1,14 @@
+<div class="hotNewsWrapper">
+    <div class="hotNewsConteiner">
+        <h1>Category №{{ category?.id }}</h1>
+        <div>
+            <a [routerLink]="['/categories',category?.id,'allnews']" class="category"> 
+                Name: {{ category?.name }} 
+            </a> 
+            <button class="button"> 
+                <a [routerLink]="['/categories',category?.id,'addNews']">Add news</a> 
+            </button>
+            <button class="button" (click)="onDelete(category?.id)">Delete category</button>
+        </div>
+    </div>
+</div>
